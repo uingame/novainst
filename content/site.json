@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "eyebrow": "Nova Technology Institute",
+    "headline": "Practical technology education for the people building tomorrow.",
+    "subtext": "We help students and professionals build real, job-ready skills in software, data, and emerging technology.",
+    "cta_label": "Get in touch",
+    "cta_link": "#contact"
+  },
+  "about": {
+    "heading": "About Nova Technology Institute",
+    "body": "Nova Technology Institute was founded to close the gap between classroom theory and real-world technology work. We design hands-on programs taught by practitioners, focused on the skills employers actually need."
+  },
+  "programs": {
+    "heading": "Programs",
+    "items": [
+      {
+        "title": "Software Development",
+        "description": "Foundations and advanced tracks in modern software engineering practices."
+      },
+      {
+        "title": "Data & Analytics",
+        "description": "Practical training in data analysis, visualization, and decision-making."
+      },
+      {
+        "title": "Emerging Technology",
+        "description": "Applied courses covering AI, automation, and the tools reshaping the industry."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Get in touch",
+    "body": "Have a question about our programs, or want to partner with us? We'd love to hear from you.",
+    "email": "info@novainst.com",
+    "phone": "",
+    "address": ""
+  },
+  "footer": {
+    "text": "© 2026 Nova Technology Institute. All rights reserved."
+  }
+}

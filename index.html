@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nova Technology Institute</title>
+<meta name="description" content="Nova Technology Institute — practical technology education for the people building tomorrow.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#top">Nova Technology Institute</a>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#programs">Programs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="top">
+    <div class="container hero-inner">
+      <p class="eyebrow" data-field="hero.eyebrow"></p>
+      <h1 data-field="hero.headline"></h1>
+      <p class="subtext" data-field="hero.subtext"></p>
+      <a class="btn" data-field="hero.cta_label" data-href-field="hero.cta_link" href="#contact"></a>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <h2 data-field="about.heading"></h2>
+      <p class="lead" data-field="about.body"></p>
+    </div>
+  </section>
+
+  <section class="section alt" id="programs">
+    <div class="container">
+      <h2 data-field="programs.heading"></h2>
+      <div class="cards" id="programs-list"></div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 data-field="contact.heading"></h2>
+      <p class="lead" data-field="contact.body"></p>
+      <div class="contact-details" id="contact-details"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p data-field="footer.text"></p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
