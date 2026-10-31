@@ -31,8 +31,14 @@ fetch("content/site.json")
       }
     });
 
+    const credentialsList = document.getElementById("credentials-list");
+    if (credentialsList && data.credentials && data.credentials.items) {
+      credentialsList.innerHTML = data.credentials.items
+        .map((item) => `<li>${item.text}</li>`)
+        .join("");
+    }
+
     renderCards("programs-list", data.programs);
-    renderCards("differentiators-list", data.differentiators);
     renderCards("founder-list", data.founder);
 
     const companyList = document.getElementById("company-list");
