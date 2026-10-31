@@ -23,6 +23,16 @@ collections:
               - { label: "Button Label", name: "cta_label", widget: "string" }
               - { label: "Button Link", name: "cta_link", widget: "string" }
 
+          - label: "Credentials Strip"
+            name: "credentials"
+            widget: "object"
+            fields:
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Text", name: "text", widget: "string" }
+
           - label: "About Section"
             name: "about"
             widget: "object"
@@ -42,19 +52,7 @@ collections:
                   - { label: "Title", name: "title", widget: "string" }
                   - { label: "Description", name: "description", widget: "text" }
 
-          - label: "Differentiators Section"
-            name: "differentiators"
-            widget: "object"
-            fields:
-              - { label: "Heading", name: "heading", widget: "string" }
-              - label: "Items"
-                name: "items"
-                widget: "list"
-                fields:
-                  - { label: "Title", name: "title", widget: "string" }
-                  - { label: "Description", name: "description", widget: "text" }
-
-          - label: "Founder Section"
+          - label: "Our Experience Section"
             name: "founder"
             widget: "object"
             fields:
