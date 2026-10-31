@@ -1,17 +1,27 @@
 {
   "hero": {
     "eyebrow": "Nova Technology Institute",
-    "headline": "Complete instructional support for K-12 STEM learning.",
+    "headline": "Future-ready STEM education for K-12 schools",
     "subtext": "Nova Technology Institute LLC helps school districts, school boards, and K-12 schools achieve strategic education goals and overcome STEM learning challenges through complete instructional support.",
     "cta_label": "Get in touch",
     "cta_link": "#contact"
+  },
+  "credentials": {
+    "items": [
+      {
+        "text": "SAM.gov registered: UEI LT54LVAGNKQ3 · CAGE 24JD2"
+      },
+      {
+        "text": "Florida-based"
+      }
+    ]
   },
   "about": {
     "heading": "About Nova Technology Institute",
     "body": "We empower educators with targeted professional development and teacher training, including specialized programs that enable teachers to leverage AI and serve as educational innovators in their schools. To drive measurable student achievement, we design custom standards-aligned STEM curricula, provide hands-on instructional support, and direct engaging educational competitions."
   },
   "programs": {
-    "heading": "Core Competencies",
+    "heading": "Our Services",
     "items": [
       {
         "title": "Professional Development & AI Educator Training",
@@ -31,38 +41,21 @@
       }
     ]
   },
-  "differentiators": {
-    "heading": "Differentiators",
-    "items": [
-      {
-        "title": "Founder Leadership",
-        "description": "Direct guidance from Dr. Gilad Shamir, bringing proven success in leading large-scale STEM programs and institutional educational reform."
-      },
-      {
-        "title": "Applied AI Integration",
-        "description": "Forward-looking teacher development programs that turn AI into a practical asset for everyday instructional innovation."
-      },
-      {
-        "title": "Evidence-Based Methodologies",
-        "description": "Rigorous, research-backed instructional design focused on driving measurable student outcomes in school district settings."
-      }
-    ]
-  },
   "founder": {
-    "heading": "Founder’s Experience",
-    "body": "Our founder, Dr. Gilad Shamir, brings an established track record of delivering impactful educational solutions:",
+    "heading": "Our Experience",
+    "body": "We bring hands-on experience in:",
     "items": [
       {
-        "title": "Institutional Teacher Training & Curriculum Alignment",
+        "title": "Teacher Training & Curriculum Alignment",
         "description": "Professional development, standards-aligned STEM curricula, and performance evaluation tools."
       },
       {
-        "title": "Large-Scale STEM Program Management",
+        "title": "Large-Scale STEM Programs",
         "description": "Interactive K-12 STEM modules and district-wide professional development initiatives."
       },
       {
-        "title": "Educational Competitions & STEM Initiatives",
-        "description": "District and global STEM competitions supporting student inquiry and experiential learning."
+        "title": "STEM Competitions",
+        "description": "District and global competitions that support student inquiry and experiential learning."
       }
     ]
   },
@@ -92,8 +85,8 @@
     "body": "Have a question about our services, or want to partner with us? We'd love to hear from you.",
     "person": "Gilad Shamir, Ph.D. (CEO)",
     "email": "contact@novainst.com",
-    "phone": "(954) 492-6339",
-    "address": "1127 Royal Palm Beach Blvd., #504, Royal Palm Beach, Florida 33411"
+    "phone": "",
+    "address": ""
   },
   "footer": {
     "text": "© 2026 Nova Technology Institute. All rights reserved."
