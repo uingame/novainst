@@ -1,38 +1,99 @@
 {
   "hero": {
     "eyebrow": "Nova Technology Institute",
-    "headline": "Practical technology education for the people building tomorrow.",
-    "subtext": "We help students and professionals build real, job-ready skills in software, data, and emerging technology.",
+    "headline": "Complete instructional support for K-12 STEM learning.",
+    "subtext": "Nova Technology Institute LLC helps school districts, school boards, and K-12 schools achieve strategic education goals and overcome STEM learning challenges through complete instructional support.",
     "cta_label": "Get in touch",
     "cta_link": "#contact"
   },
   "about": {
     "heading": "About Nova Technology Institute",
-    "body": "Nova Technology Institute was founded to close the gap between classroom theory and real-world technology work. We design hands-on programs taught by practitioners, focused on the skills employers actually need."
+    "body": "We empower educators with targeted professional development and teacher training, including specialized programs that enable teachers to leverage AI and serve as educational innovators in their schools. To drive measurable student achievement, we design custom standards-aligned STEM curricula, provide hands-on instructional support, and direct engaging educational competitions."
   },
   "programs": {
-    "heading": "Programs",
+    "heading": "Core Competencies",
     "items": [
       {
-        "title": "Software Development",
-        "description": "Foundations and advanced tracks in modern software engineering practices."
+        "title": "Professional Development & AI Educator Training",
+        "description": "Practical workshops enabling teachers to integrate AI technology and act as pedagogical entrepreneurs across school districts."
       },
       {
-        "title": "Data & Analytics",
-        "description": "Practical training in data analysis, visualization, and decision-making."
+        "title": "Curriculum Design & Instructional Content",
+        "description": "Custom, standards-aligned K-12 STEM learning modules engineered for classroom implementation."
       },
       {
-        "title": "Emerging Technology",
-        "description": "Applied courses covering AI, automation, and the tools reshaping the industry."
+        "title": "In-Class Instruction & Support",
+        "description": "Direct classroom instruction and co-teaching models aligned with school board learning goals."
+      },
+      {
+        "title": "Educational Competitions & STEM Initiatives",
+        "description": "End-to-end management of space-themed competitions and inquiry-based learning programs for schools."
+      }
+    ]
+  },
+  "differentiators": {
+    "heading": "Differentiators",
+    "items": [
+      {
+        "title": "Founder Leadership",
+        "description": "Direct guidance from Dr. Gilad Shamir, bringing proven success in leading large-scale STEM programs and institutional educational reform."
+      },
+      {
+        "title": "Applied AI Integration",
+        "description": "Forward-looking teacher development programs that turn AI into a practical asset for everyday instructional innovation."
+      },
+      {
+        "title": "Evidence-Based Methodologies",
+        "description": "Rigorous, research-backed instructional design focused on driving measurable student outcomes in school district settings."
+      }
+    ]
+  },
+  "founder": {
+    "heading": "Founder’s Experience",
+    "body": "Our founder, Dr. Gilad Shamir, brings an established track record of delivering impactful educational solutions:",
+    "items": [
+      {
+        "title": "Institutional Teacher Training & Curriculum Alignment",
+        "description": "Professional development, standards-aligned STEM curricula, and performance evaluation tools."
+      },
+      {
+        "title": "Large-Scale STEM Program Management",
+        "description": "Interactive K-12 STEM modules and district-wide professional development initiatives."
+      },
+      {
+        "title": "Educational Competitions & STEM Initiatives",
+        "description": "District and global STEM competitions supporting student inquiry and experiential learning."
+      }
+    ]
+  },
+  "company": {
+    "heading": "Company Data",
+    "items": [
+      {
+        "label": "UEI",
+        "value": "LT54LVAGNKQ3"
+      },
+      {
+        "label": "CAGE Code",
+        "value": "24JD2"
+      },
+      {
+        "label": "Primary NAICS",
+        "value": "611710 Educational Support Services\n611430 Professional and Management Development Training\n513210 Software Publishers"
+      },
+      {
+        "label": "PSC Codes",
+        "value": "AF11, AJ11, DG, U001, U006, U008, U009"
       }
     ]
   },
   "contact": {
     "heading": "Get in touch",
-    "body": "Have a question about our programs, or want to partner with us? We'd love to hear from you.",
+    "body": "Have a question about our services, or want to partner with us? We'd love to hear from you.",
+    "person": "Gilad Shamir, Ph.D. (CEO)",
     "email": "contact@novainst.com",
-    "phone": "",
-    "address": ""
+    "phone": "(954) 492-6339",
+    "address": "1127 Royal Palm Beach Blvd., #504, Royal Palm Beach, Florida 33411"
   },
   "footer": {
     "text": "© 2026 Nova Technology Institute. All rights reserved."

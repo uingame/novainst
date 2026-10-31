@@ -2,6 +2,21 @@ function getField(obj, path) {
   return path.split(".").reduce((o, k) => (o ? o[k] : undefined), obj);
 }
 
+function renderCards(listId, section) {
+  const list = document.getElementById(listId);
+  if (list && section && section.items) {
+    list.innerHTML = section.items
+      .map(
+        (item) => `
+        <div class="card">
+          <h3>${item.title}</h3>
+          <p>${item.description}</p>
+        </div>`
+      )
+      .join("");
+  }
+}
+
 fetch("content/site.json")
   .then((res) => res.json())
   .then((data) => {
@@ -16,14 +31,18 @@ fetch("content/site.json")
       }
     });
 
-    const programsList = document.getElementById("programs-list");
-    if (programsList && data.programs && data.programs.items) {
-      programsList.innerHTML = data.programs.items
+    renderCards("programs-list", data.programs);
+    renderCards("differentiators-list", data.differentiators);
+    renderCards("founder-list", data.founder);
+
+    const companyList = document.getElementById("company-list");
+    if (companyList && data.company && data.company.items) {
+      companyList.innerHTML = data.company.items
         .map(
           (item) => `
-        <div class="card">
-          <h3>${item.title}</h3>
-          <p>${item.description}</p>
+        <div class="row">
+          <strong>${item.label}</strong>
+          <span>${item.value}</span>
         </div>`
         )
         .join("");
@@ -32,11 +51,14 @@ fetch("content/site.json")
     const contactDetails = document.getElementById("contact-details");
     if (contactDetails && data.contact) {
       const rows = [];
+      if (data.contact.person) {
+        rows.push(`<div class="item"><strong>Point of Contact</strong><span>${data.contact.person}</span></div>`);
+      }
       if (data.contact.email) {
         rows.push(`<div class="item"><strong>Email</strong><a href="mailto:${data.contact.email}">${data.contact.email}</a></div>`);
       }
       if (data.contact.phone) {
-        rows.push(`<div class="item"><strong>Phone</strong><span>${data.contact.phone}</span></div>`);
+        rows.push(`<div class="item"><strong>Phone</strong><a href="tel:${data.contact.phone.replace(/[^0-9+]/g, "")}">${data.contact.phone}</a></div>`);
       }
       if (data.contact.address) {
         rows.push(`<div class="item"><strong>Address</strong><span>${data.contact.address}</span></div>`);
